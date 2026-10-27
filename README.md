@@ -130,9 +130,6 @@ Perbedaan ini dibuktikan sendiri dengan menghapus rule HTTP dari `web-sg` (hasil
 - IAM role dipakai untuk akses ke layanan AWS, tanpa access key di server.
 - File `.pem` tidak boleh masuk repo (`*.pem` ada di `.gitignore`).
 
-## Langkah berikutnya
 
-- [ ] Tulis ulang seluruh stack dengan **Terraform** (remote state di S3)
-- [ ] Ganti akses SSH dengan **SSM Session Manager**
-- [ ] Pindahkan image ke **Amazon ECR** dan otomatiskan build dengan **GitHub Actions**
-- [ ] Tambahkan monitoring dasar dengan CloudWatch
+
+
